@@ -1,0 +1,19 @@
+[project]
+name = "luxmobile"
+version = "0.1.0"
+description = "Trabalho da disciplina de Estrutura de dados II"
+readme = "README.md"
+authors = [
+    { name = "Lucy Lima Santos", email = "" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.3",
+]
+
+[project.scripts]
+server = "luxmobile:start"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
