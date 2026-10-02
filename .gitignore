@@ -9,7 +9,5 @@ wheels/
 # Virtual environments
 .venv
 
-
-
 # pasta do node modules
 node_modules

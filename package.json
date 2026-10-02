@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i src/luxmobile/static/input.css -o src/luxmobile/static/output.css",
+    "watch:css": "npx @tailwindcss/cli -i src/luxmobile/static/input.css -o src/luxmobile/static/output.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^4.3.3"
   },
